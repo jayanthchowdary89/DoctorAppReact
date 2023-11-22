@@ -1,0 +1,80 @@
+.registerbody {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* background-image: url('img4.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    overflow: hidden;
+     
+     
+    }
+     
+    .not-simply {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        /* border: 1px solid black; */
+        border: var(--border);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+      }
+     
+      .not-simply .simply{
+        margin-bottom: 15px;
+        background-color:  white;
+      }
+     
+      .not-simply .simply label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size:1.3rem;
+        color: var(--black);
+        background-color: white;
+      }
+     
+      .not-simply .simply input,
+      .not-simply .simply select {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        /* border: 1px solid #ccc; */
+        border: var(--border);
+        border-radius: 4px;
+        transition: border-color 0.3s ease-in-out;
+        /* font-style: italic; */
+        font-size:small;
+        color: var(--black);
+        background-color: #fff;
+      }
+    /*  
+      button {
+        color:lightseagreen;
+        font-size:small;
+        font-weight:bold;
+        padding: 10px 20px;
+        border: var(--border);
+        border-radius: 4px;
+        cursor:pointer;
+        transition: background-color 0.3s ease-in-out;
+      } */
+      .buttonbody{
+        background-color: white;
+      }
+      .not-simply button{
+        margin-left: 10px;
+        font-size: large;
+        padding: 10px;
+        border-radius: 10px;
+        background-color:rgb(68, 176, 171);
+        transition: border-color 2s ease-in-out;
+        color: #fff;
+     }
+     
+      .not-simply button:hover{
+        background-color: rgb(7, 70, 67);
+         }

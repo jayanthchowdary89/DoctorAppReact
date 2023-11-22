@@ -1,0 +1,46 @@
+.not-plf{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 180px;
+    border: var(--border);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+ 
+.plf label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size:1.3rem;
+    color: var(--black);
+  }
+ 
+  .plf input,
+  .plf select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: var(--border);
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    font-size:small;
+    color: var(--black);
+  }
+ 
+  .not-plf  button{
+    margin-left: 10px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:var(--green);
+    color: #fff;
+ }
+ 
+ .not-plf  button:hover{
+    color:var(--green);
+    background-color: #fff;
+    border:solid  var(--green);
+ }

@@ -1,0 +1,127 @@
+.doclogbody{
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+}
+.doclogbody .doclogcontaining .doclognavbar{
+    position: fixed;
+      left: 0;
+      top: 0;
+      width: 300px; /* Adjust the width as needed */
+      height: 100%;
+      background-color: #333;
+      padding-top: 30px; /* Adjust the top padding as needed */
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      list-style-type: none;
+}
+.doclogbody .doclogcontaining .doclognavbar img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.doclogbody .doclogcontaining .doclogcontent{
+    margin-left: 320px;
+}
+.doclogbody .doclogcontaining .doclognavbar li{
+    text-decoration: none;
+      color: white;
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      border-bottom: 1px solid #555;
+      text-decoration: none;
+      font-size: large;
+}
+.doclogbody .doclogcontaining .doclognavbar li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.doclogbody .doclogcontaining .doclognavbar li:hover{
+    background-color: #555;
+}
+.doclogbody .doclogcontaining .doclogcontent{
+    background-color: #f0f0f0;
+      border-radius: 15px; /* Adjust the radius to make rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin-top: 50px;
+      margin-left: 340px;
+      margin-right: 30px;
+}
+h5{
+    font-size: large;
+    font-style: italic;
+}
+ 
+.patlogbody{
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+}
+.patlogbody .patlogcontaining .patlognavbar{
+    position: fixed;
+      left: 0;
+      top: 0;
+      width: 300px; /* Adjust the width as needed */
+      height: 100%;
+      background-color: #333;
+      padding-top: 30px; /* Adjust the top padding as needed */
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      list-style-type: none;
+}
+ 
+.patlogbody .patlogcontaining .patlogcontent{
+    margin-left: 320px;
+}
+.patlogbody .patlogcontaining .patlognavbar li{
+    text-decoration: none;
+      color: white;
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      border-bottom: 1px solid #555;
+      text-decoration: none;
+      font-size: large;
+}
+.patlogbody .patlogcontaining .patlognavbar li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.patlogbody .patlogcontaining .patlognavbar li:hover{
+    background-color: #555;
+}
+.patlogbody .patlogcontaining .patlogcontent{
+    background-color: #f0f0f0;
+      border-radius: 15px; /* Adjust the radius to make rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin-top: 50px;
+      margin-left: 340px;
+      margin-right: 30px;
+}
+ .userid{
+    padding-bottom: 5px;
+    color: cornflowerblue;
+ }
+ .tag{
+    margin-top: 30px;
+    text-align: center;
+ }
+ .tagbox{
+   margin-top: 200px;
+   margin-left: 350px;
+   border: solid var(--green);
+   margin-right: 50px;
+   border-radius: 10px;
+   padding-bottom: 20px;
+   background-color: rgb(168, 182, 195);
+ }
+ 
+ 

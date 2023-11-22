@@ -1,0 +1,53 @@
+*{
+
+}
+
+.not-dlf{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 180px;
+    border: var(--border);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+    background-image: url('./bg.png');
+  background-size: cover;
+  
+}
+ 
+.dlf label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size:1.3rem;
+    color: var(--black);
+  }
+ 
+  .dlf input,
+  .dlf select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: var(--border);
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    font-size:small;
+    color: var(--black);
+  }
+ 
+  .not-dlf .dlf-btn button{
+    margin-left: 10px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: #fff;
+ }
+ 
+ .not-dlf .dlf-btn button:hover{
+    color: var(--green);
+    background-color: #fff;
+    border: solid var(--green);
+ }
